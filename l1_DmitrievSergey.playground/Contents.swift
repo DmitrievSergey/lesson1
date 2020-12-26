@@ -14,11 +14,16 @@ if D > 0 {
     let x2: Double = (-sqrt(D) - b)/(2*a)
     print(x1)
     print(x2)
+    
 } else if D == 0 {
+    
     let x = -b/2*a
     print(x)
+    
 } else {
+    
     print("Нет решения")
+    
 }
 //2. Даны катеты d и e прямоугольного треугольника. Найти площадь, периметр и гипотенузу f треугольника.
 // Площадь S = d*e/2
@@ -39,7 +44,7 @@ print("Гипотенуза треугольника = \(f)")
 // sumDep - сумма вклада
 //yearPercent - годовой процент
 // timeDep - срок вклада
-let sumDep: Double = 1000
+//let sumDep: Double = 1000
 let yearPercent: Double = 10
 let timeDep: Int = 5
 var curDep: Double = 1000
